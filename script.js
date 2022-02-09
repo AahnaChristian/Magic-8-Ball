@@ -20,7 +20,7 @@ function responseOut() {
         ansInputEl.innerHTML = "Of Course!";
     } else if (queIn.innerHTML === undefined) {
         ansInputEl.innerHTML = "Please ask a question...";
-    } else {
+        
         // Probability
         let randomAns = Math.random();
 
@@ -37,4 +37,3 @@ function responseOut() {
             ansInputEl.innerHTML = "Outlook not so good.";
         }
     }
-}
