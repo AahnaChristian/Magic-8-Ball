@@ -16,6 +16,7 @@ function responseOut() {
 
     let randomAns = Math.random();
     alert(queIn);
+    
     // ansInputEl.innerHTML
     if (queIn.innerHTML === "Does a magic 8 ball actually work?" || queIn.innerHTML === "Does a magic 8 ball actually work") {
         ansInputEl.innerHTML = "How dare you doubt me!";
