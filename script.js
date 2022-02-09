@@ -18,7 +18,7 @@ function responseOut() {
         ansInputEl.innerHTML = "How dare you doubt me!";
     } else if (queIn.innerHTML === "Is JavaScript awesome?" || queIn.innerHTML === "Is JavaScript awesome") {
         ansInputEl.innerHTML = "Of Course!";
-    } else if (queIn.innerHTML === null) {
+    } else if (queIn.innerHTML === undefined) {
         ansInputEl.innerHTML = "Please ask a question...";
     } else {
         // Probability
