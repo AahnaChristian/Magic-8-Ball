@@ -35,7 +35,7 @@ function responseOut() {
              ansInputEl.innerHTML = "Concentrate and ask again.";
          } else if (queIn !== undefined && randomAns < 0.8) {
              ansInputEl.innerHTML = "Don't count on it.";
-         } else if (queIn !== undefined && randomAns < 1) {
+         } else {
              ansInputEl.innerHTML = "Outlook not so good.";
         }
     }
