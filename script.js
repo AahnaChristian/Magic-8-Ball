@@ -37,8 +37,6 @@ function responseOut() {
              ansInputEl.innerHTML = "Don't count on it.";
          } else if (queIn !== undefined && randomAns < 1) {
              ansInputEl.innerHTML = "Outlook not so good.";
-         } else if (queIn === undefined){
-            ansInputEl.innerHTML = "Please ask a question...";
-         }
+        }
     }
 }
